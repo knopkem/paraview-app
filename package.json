@@ -1,0 +1,25 @@
+{
+  "name": "paraview-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "build:debug": "webpack --display-modules",
+    "build:release": "webpack --mode production",
+    "start": "webpack-dev-server",
+    "commit": "git cz",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hammerjs": "^2.0.8",
+    "kw-web-suite": "^10.0.0",
+    "monologue.js": "^0.3.5",
+    "paraviewweb": "^3.2.13",
+    "vtk.js": "^14.11.4",
+    "wslink": "^0.1.14"
+  }
+}
